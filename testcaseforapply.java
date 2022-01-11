@@ -40,13 +40,13 @@ public class Switchcase{
 
             System.out.println("Name is Executed ---->enter city or state");
             break;
-            case "searchbtn":
+            case "Type":
             driver.findElement(By.Type(strLocator)).click();
             System.out.println("Type is Executed ---->click search btn");
             break;
 
             default:
-            Syystem.out.println("default statement");
+            System.out.println("default statement");
             break;
         }
     }
